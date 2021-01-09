@@ -1,0 +1,47 @@
+.root {
+    -fx-font-size:30;
+}
+.label {
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-font-size:50;
+}
+#digit {
+    -fx-background-color: #e0ebeb;
+}
+#digit:hover {
+    -fx-background-color: #eff5f5;
+}
+#digit:pressed {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: gray;
+    -fx-border-width: 3;
+}
+#topBtn {
+    -fx-background-color: #00ff99;
+}
+#topBtn:hover {
+    -fx-background-color: #99ffd6;
+}
+#topBtn:pressed {
+    -fx-background-color: #e6fff5;
+    -fx-background-radius: 10;
+    -fx-border-color: gray;
+    -fx-border-width: 3;
+}
+
+#rightBtns {
+    -fx-background-color: #ffb84d;
+    -fx-text-fill: white;
+    -fx-text-fill-outline: black;
+}
+#rightBtns:hover {
+    -fx-background-color: #ffd699;
+}
+#rightBtns:pressed {
+    -fx-background-color: #ffebcc;
+    -fx-background-radius: 10;
+    -fx-border-color: gray;
+    -fx-border-width: 3;
+}
